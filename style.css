@@ -6,9 +6,39 @@ h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
 }
+#box1{
+    display: flex;
+    background-color: black;
+    color: blue;
+    border: 5px solid red;
+    padding:50px;
+    margin-left: 20px;
+    height: 100px;
+    width: 200px;
+    margin-right: 10px;
+    flex: 2;
+
+}
+#div{
+    display: flex;
+}
+#box2{
+    display: flex;
+    background-color: blue;
+    color:black;
+    border: 5px solid red;
+    padding:50px;
+    margin-left: 20px;
+    margin-right: 10px;
+    height: 100px;
+    width: 200px;
+    flex: 1;
+    
+    
+}
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    border:2px solid red;
 }
 .yo{
     text-align: center;
